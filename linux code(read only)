@@ -1,0 +1,17 @@
+NASM：
+  nasm -f elf32 kernel.asm -o kasm.o
+
+GCC：
+  gcc -m32 -c FlareOS_HelloWorld.c -o kc.o
+
+ld：
+  ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
+
+cp：
+  cp Kernel.out kernel-Flare.out
+  cp ./kernel-Flare.out /boot/
+  (cp may need Root)
+  
+
+
+   
