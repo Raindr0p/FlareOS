@@ -1,0 +1,34 @@
+----------------------------------------------------------
+Flare OS Info                                  
+----------------------------------------------------------
+Ver 1.0                                                  
+----------------------------------------------------------
+Developers: Alex Yang, George Fang, William Wu
+----------------------------------------------------------
+Flare OS is a multi-thread OS, and it's a micro-kernel.
+It's very simple, the struct is :
+  void main()
+{
+  while(1)
+ {
+   func0(); //thread0
+   func1(); //thread1
+   func2(); //thread2
+   func3(); //thread3
+  }
+}
+Multi-thread use POSIX lib.
+----------------------------------------------------------
+To do it is very difficult for us at present.
+Because we only have about 1-2 hours to program.
+So we hope people who like it can join us and work with us.
+----------------------------------------------------------
+We are going to release a BETA version next year(2016)
+----------------------------------------------------------
+Contact us
+
+Email:yangyn2002@outlook.com
+QQ:1124075176(only for FAQ)
+
+Please ask us question in Chinese or English.
+----------------------------------------------------------
